@@ -21,7 +21,7 @@ startRow = 101
 endRow = 103
 startCol = 201
 endCol = 203
-croppedImage = imagen[startRow:endRow, startCol:endCol]
+croppedImage = image[startRow:endRow, startCol:endCol]
 # Show the cropped image
 cv2.imshow('Cropped image', croppedImage)
 # Set the time to see the image 
