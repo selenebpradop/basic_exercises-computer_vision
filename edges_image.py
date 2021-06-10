@@ -2,7 +2,7 @@
 import cv2
 
 # Read the image
-image = cv2.imread('imagen7.png',1) # Change 'image1.png' for the name of your image 
+image = cv2.imread('image1.png',1) # Change 'image1.png' for the name of your image 
 # Show the original image
 cv2.imshow('Image 1', image)
 # Set the time to show the image
