@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 
 # Read the image
-nimg = 'imagen1'
+nimg = 'image1' # Change 'image1' for the name of your image
 imgray = cv2.imread(nimg + '.jpg', cv2.IMREAD_GRAYSCALE)
 # Apply the threshold
 nthresh = 'tozeroinv'
